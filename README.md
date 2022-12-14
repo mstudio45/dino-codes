@@ -1,0 +1,2 @@
+# dino-codes
+chrome://dino
