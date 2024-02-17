@@ -1,10 +1,14 @@
 # dino-codes
 chrome://dino
 
-
 140K+ score:
 ```
-Runner.instance_.saveHighScore(0, true);Runner.config.ACCELERATION = 10000;setTimeout(function(){Runner.instance_.gameOver()Runner.instance_.saveHighScore(Runner.instance_.highestScore, false)},10000)
+Runner.instance_.saveHighScore(0, true)
+Runner.config.ACCELERATION = 10000
+setTimeout(function() {
+  Runner.instance_.gameOver()
+  Runner.instance_.saveHighScore(Runner.instance_.highestScore, false)
+}, 10000)
 ```
 
 Laser on 'D' (by congaterori on github):
@@ -20,11 +24,6 @@ Runner.instance_.canvasCtx.lineTo(Runner.instance_.horizon.obstacles[0].xPos+10,
 Runner.instance_.canvasCtx.stroke();
 setTimeout(function(){Runner.instance_.clearCanvas = b;}, 15);
 Runner.instance_.horizon.removeFirstObstacle();}}
-```
-
-No gravity:
-```
-Runner.instance_.tRex.config.GRAVITY = 0.1
 ```
 
 No gravity:
